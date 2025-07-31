@@ -19,8 +19,11 @@ def add_to_tree(tree, path, parent=None):
 def main():
     # Инициализация дерева
     tree = Tree()
-    root_path = Path("C:\\Users\\novos\\Desktop\\GitHub\\grokking-machine-learning")
-    
+
+    # "C:\\Users\\novos\\Desktop\\GitHub\\grokking-machine-learning"
+
+    root_path = Path("C:/Users/novos/Desktop/Obsidian/Grokking machine learning")
+
     # Строим дерево
     add_to_tree(tree, root_path)
     
